@@ -8,7 +8,8 @@
 static char *font = "Liberation Mono:pixelsize=22:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"Noto Color Emoji:pixelsize=22:antialias=true:autohint=true";
+	"JoyPixels:pixelsize=22:antialias=true:autohint=true",
+    "Symbols Nerd Font:style=Regular:size=12"
 };
 static int borderpx = 2;
 
@@ -93,23 +94,23 @@ float alpha = 0.95;
 static const char *colorname[] = {
     /* 8 normal colors */
 	"#24282b",
+    "#b01000",
+	"#4f9504",
+	"#cca000",
+	"#2f5f9d",
+	"#aa38a7",
+	"#1795a6",
+	"#a8aba6",
+
+//	/* 8 bright colors */
+	"#434343",
 	"#b01000",
 	"#4f9504",
 	"#cca000",
 	"#2f5f9d",
-	"#6e5379",
-	"#009eb3",
+	"#aa38a7",
+	"#1795a6",
 	"#a8aba6",
-
-	/* 8 bright colors */
-	"#454545",
-	"#ce301e",
-	"#6ba625",
-	"#c8b639",
-	"#557fa7",
-	"#8c6a86",
-	"#1ea8b8",
-	"#bfbfbb",
 
 	[255] = 0,
 
